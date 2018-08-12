@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFFCEE45-1D1F-4C58-451B-083AC3D9518C" name="Clases_Tomadas">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:50:17 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Tomada" id="608D07B0-97D8-4657-1593-DDC6EE5C5F03">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:50:51 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Alumno" id="58418DA1-0A8C-E223-FA7E-E7207B0E2422">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:51:17 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B67DD27-87A5-6011-B019-77A9345876E3" referredColumn="A529E55E-1E3E-46B5-103C-D025C0783E37"/>
+</associations>
+</Column>
+<Column name="ID_Clase" id="A2A7D700-8316-64A2-45AB-FDA73D83D70C">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:51:23 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91C65D5A-6DC8-9C21-037F-447BCB768D3D" referredColumn="4956CA58-9F55-B554-2021-F46DCE0DA958"/>
+</associations>
+</Column>
+<Column name="Fecha_Actual" id="4B12C4D2-3B26-8421-767E-F89FFC29B7AE">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:57:17 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1AAB8F3-036E-F636-6819-D893A091B1A2" name="Clases_Tomadas_PK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:50:51 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="608D07B0-97D8-4657-1593-DDC6EE5C5F03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7B1631C-8D95-A8C3-28BE-7257660CB2F4" name="Clases_Tomadas_Alumnos_FK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:57:54 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58418DA1-0A8C-E223-FA7E-E7207B0E2422"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="836EA03A-B4AE-FDB5-E136-E13E069891E8" name="Clases_Tomadas_Clases_FK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:58:08 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A7D700-8316-64A2-45AB-FDA73D83D70C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

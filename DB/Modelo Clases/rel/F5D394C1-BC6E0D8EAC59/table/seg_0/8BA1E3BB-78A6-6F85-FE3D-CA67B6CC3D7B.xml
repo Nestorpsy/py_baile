@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BA1E3BB-78A6-6F85-FE3D-CA67B6CC3D7B" name="Paquetes">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:41:39 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_paquete" id="73B7CE0B-220B-7B4F-DD11-52BBF3AE7A52">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:42:55 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="F666FCCE-8C00-ADF1-3229-54B52269AAA5">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:42:55 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD130B88-F4BB-8B8A-9C4B-E65731EE33BA" name="Paquetes_PK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:42:55 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73B7CE0B-220B-7B4F-DD11-52BBF3AE7A52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

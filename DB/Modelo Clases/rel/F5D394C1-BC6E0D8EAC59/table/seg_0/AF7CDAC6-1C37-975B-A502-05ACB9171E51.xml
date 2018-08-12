@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF7CDAC6-1C37-975B-A502-05ACB9171E51" name="Tipo_Clase">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:37:49 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Tipo_Clase" id="EC79E120-F0AA-009A-649F-4277924327E3">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:38:18 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Clase" id="673DA196-90DE-1A03-169E-A7C6F7A28A6A">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:38:39 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EEF6E98-FB1F-C0B0-64DE-10D44CFDA21C" name="Tipo_Clase_PK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:38:18 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC79E120-F0AA-009A-649F-4277924327E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

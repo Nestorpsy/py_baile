@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F5D8279-D350-0A1E-0CB7-EDCB1E9BE6B7" name="Alumnos">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:30:10 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Alumno" id="A529E55E-1E3E-46B5-103C-D025C0783E37">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:31:34 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombres" id="C7C59C2C-1629-68B0-8F41-C889045617A1">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:34:27 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido1" id="1856D5E0-CE0B-3E28-5430-0FE0569CB3F4">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:35:03 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido2" id="3A48A71C-8B4E-A107-4DAD-9A2539342751">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:35:36 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="A639824B-3AC3-BAE5-00B3-36D2F35D0B49">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:35:55 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_principal" id="94069438-BAF2-8F2D-5CD3-C8AE2B612030">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:36:27 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_sec" id="611302D8-90D7-6F0D-36F0-5CBDF3F1AC00">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:36:42 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="BDEAAB4A-4FF7-C52E-18AB-82A4EA8B223F">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:37:05 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8AE0FAC-62B1-1221-662D-9DCC06785EBF" name="Alumnos_PK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:31:34 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A529E55E-1E3E-46B5-103C-D025C0783E37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

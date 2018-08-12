@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="420CF587-F2A3-5EAB-6225-54D24535887F" name="Paquetes_Alumnos">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:58:48 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Paquete_Alumno" id="2224ECF0-08C1-A748-34D6-4117AB476E8A">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:04:03 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Paquete" id="FBE39439-97AE-7F6E-0924-D900E8096B86">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:04:26 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0B417F5-EAB0-D54E-04A0-9372EE45ACAF" referredColumn="73B7CE0B-220B-7B4F-DD11-52BBF3AE7A52"/>
+</associations>
+</Column>
+<Column name="ID_Alumno" id="FBE05FF5-53D7-3DF5-79EC-322254A73BE1">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:04:42 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2376F12-4684-0F3F-04E5-7946FBAD252B" referredColumn="A529E55E-1E3E-46B5-103C-D025C0783E37"/>
+</associations>
+</Column>
+<Column name="Fecha_Inicio" id="677C165A-FD0C-49B2-7FBA-F545F356CBB9">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:05:15 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Fin" id="9D88D70F-5E0A-4C0F-D310-FC566FCC5220">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:05:28 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC44A947-D428-3F70-7674-C60958B5F353" name="Paquetes_Alumnos_PK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:04:03 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2224ECF0-08C1-A748-34D6-4117AB476E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77D2B1AA-6522-90D7-D16C-01C6522573F6" name="Paquetes_Alumnos_Paquetes_FK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:07:50 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBE39439-97AE-7F6E-0924-D900E8096B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3BD79A6-66E0-1F34-39A0-1250B516BD49" name="Paquetes_Alumnos_Alumnos_FK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 02:08:09 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBE05FF5-53D7-3DF5-79EC-322254A73BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

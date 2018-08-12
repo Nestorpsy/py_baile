@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0BCA92D-EA2F-2688-B32F-92B46FE21D06" name="Clases">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:43:13 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Clase" id="4956CA58-9F55-B554-2021-F46DCE0DA958">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:45:12 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Tipo_Clase" id="2446ADAB-03DC-1CD7-F14D-D07C637EDF4F">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:45:45 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AF0A014-F779-A9DD-A613-7D0398C5B4CB" referredColumn="EC79E120-F0AA-009A-649F-4277924327E3"/>
+</associations>
+</Column>
+<Column name="Dia" id="3C84CBD7-3FAD-4A57-560C-F2683630DE53">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:47:03 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inicio" id="ED5F7A24-D961-995D-77FB-2DC347731270">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:47:57 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fin" id="E5E9D059-D323-36DD-9442-FFDC2D4531DC">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:48:22 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1517B3BF-159B-347C-F341-89D973E60AB9" name="Clases_PK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:45:12 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4956CA58-9F55-B554-2021-F46DCE0DA958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E05FF98-6B38-E0E9-EDE6-1F17A2C68BCB" name="Clases_Tipo_Clase_FK">
+<createdBy>nestorpsy</createdBy>
+<createdTime>2018-08-02 01:49:38 UTC</createdTime>
+<ownerDesignName>Modelo Clases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2446ADAB-03DC-1CD7-F14D-D07C637EDF4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
